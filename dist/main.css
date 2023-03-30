@@ -1,0 +1,132 @@
+.headline1{
+    font-weight:600;
+    font-size:24px;
+    line-height:40px;
+    letter-spacing:0.35px
+}
+.headeline2{
+    font-weight:600;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:0.35px
+}
+.body-text{
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:0.5px
+}
+.header-text{
+    font-weight:400;
+    font-size:16px;
+    line-height:20px;
+    letter-spacing:-0.24px
+}
+.header3{
+    font-weight:500;
+    font-size:13px;
+    line-height:18px;
+    letter-spacing:0.20px
+}
+.small-text{
+    font-weight:400;
+    font-size:12px;
+    line-height:16px;
+    letter-spacing:0.20px
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.header__input{
+    height:49px;
+    padding:14px 80px 14px 16px;
+}
+.header__button{
+    max-height:40px;
+    width:40px
+}
+.main-inner__slider{
+    overflow:hidden;
+}
+.main-inner__slider .swiper-wrapper{
+    overflow:hidden;
+}
+.main-inner_slider-item{
+    position:relative;
+    height:760px;
+    width:100%;
+    border-radius:12px;
+    overflow:hidden;
+
+}
+.description{
+    position:absolute;
+    z-index:100;
+    border-radius:12px;
+    background:#ffff;
+    min-height:280px;
+    width:600px;
+    bottom:24px;
+    left:24px;
+    padding:32px 24px;
+}
+.description ul li {
+    display:flex;
+    align-items:center;
+    
+}
+.description ul li::after {
+    content:'';
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#4A5468;
+    float:right;
+    margin:0 10px;
+}
+.description ul li:last-child::after{
+    display:none;
+}
+.main-inner__slider-btns{
+    position:absolute;
+    bottom:53px;
+    left:48px;
+    width:113px;;
+    height:40px;
+
+}
+.fraction{
+    display:flex;
+    justify-content:center;
+    width:45px;
+    height:40px;
+    align-items:center;
+}
+.cards-list{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+.cards-list__item{
+    width:calc(25% - 32px);
+    float:left;
+    background:red;
+    height:244px;
+    margin-right:32px;
+    margin-bottom:32px;
+}
+.cards-list__item:nth-child(2){
+    width:calc(50% - 32px);
+    height:550px
+}
+.cards-list__item:nth-child(3),
+.cards-list__item:nth-child(5){
+    margin-right:0
+}
+.cards-list__item:nth-child(4),
+.cards-list__item:nth-child(5){
+    margin-top: -277px
+}
